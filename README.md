@@ -12,6 +12,20 @@ Online documentation, which includes examples, can be found at: http://godoc.org
 
 [![GoDoc](https://godoc.org/github.com/reiver/go-chain10?status.svg)](https://godoc.org/github.com/reiver/go-chain10)
 
+## Example
+
+You can get the exponent based on the chain-id with code such as:
+
+```golang
+import "github.com/reiver/go-chain10"
+
+// ...
+
+var chainid uint64 = 1 // Ethereum Mainnet
+
+var exponent *big.Int = chain10.Exponent(chainid)
+```
+
 ## Import
 
 To import package **chain10** use `import` code like the follownig:
