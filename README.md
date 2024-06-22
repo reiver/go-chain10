@@ -23,7 +23,7 @@ import "github.com/reiver/go-chain10"
 
 var chainid uint64 = 1 // Ethereum Mainnet
 
-var exponent *big.Int = chain10.Exponent(chainid)
+var exponent uint64 = chain10.Exponent(chainid)
 ```
 
 ## Import

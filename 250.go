@@ -1,19 +1,15 @@
 package chain10
 
 import (
-	"math/big"
-
 	"github.com/reiver/go-chainid"
 )
 
 // 1 MATIC = 1,000,000,000,000,000,000 wei
-func FantomOpera() *big.Int {
-	return new(big.Int).SetUint64(18)
-}
+const FantomOpera =  18
 
 func init() {
-	var value func()*big.Int =           FantomOpera
-	var   key string = createkey(chainid.FantomOpera)
+	const value =                      FantomOpera
+	var key string = createkey(chainid.FantomOpera)
 
 	exponents[key] = value
 }
