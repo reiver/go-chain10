@@ -4,7 +4,7 @@ import (
 	"github.com/reiver/go-chainid"
 )
 
-// 1 MATIC = 1,000,000,000,000,000,000 wei
+// 1 MATIC = 1,000,000,000,000,000,000 wei = 10¹⁸ wei
 const FantomOpera =  18
 
 func init() {

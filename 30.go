@@ -4,7 +4,7 @@ import (
 	"github.com/reiver/go-chainid"
 )
 
-// 1 RBTC = 100,000,000 rsat
+// 1 RBTC = 100,000,000 rsat = 10⁸ rsat
 const RootstockMainnet = 8
 
 func init() {

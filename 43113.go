@@ -4,7 +4,7 @@ import (
 	"github.com/reiver/go-chainid"
 )
 
-// 1 AVAX = 1,000,000,000 nanoAVAX
+// 1 AVAX = 1,000,000,000 nanoAVAX = 10⁹ nanoAVAX
 const AvalancheFujiTestnet = 9
 
 func init() {

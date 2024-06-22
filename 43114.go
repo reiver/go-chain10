@@ -4,8 +4,8 @@ import (
 	"github.com/reiver/go-chainid"
 )
 
-// 1 AVAX = 1,000,000,000 nanoAVAX
-const AvalancheCChain = 18
+// 1 AVAX = 1,000,000,000 nanoAVAX = 10⁹ nanoAVAX
+const AvalancheCChain = 9
 
 func init() {
 	const value =                      AvalancheCChain
